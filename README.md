@@ -23,7 +23,7 @@ To get a working local copy up and running follow these simple steps
 - clone this project with the command:
 
 ```
-git@github.com:stephnna/enumerable.git
+git@github.com:stephnna/enumerable https://github.com/stephnna/oop-school-library.git
 ```
 
 ### Usage

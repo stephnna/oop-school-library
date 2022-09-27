@@ -27,9 +27,11 @@ To get a working local copy up and running follow these simple steps
 git@github.com:stephnna/enumerable https://github.com/stephnna/oop-school-library.git
 ```
 
-### Usage
+## Usage
 
 For anyone that whats to learn ruby
+
+## Author
 
 👤 Ezea Stephen Nnabuike
 - GitHub: [@stephnna](https://github.com/stephnna)

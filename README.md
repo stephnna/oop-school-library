@@ -31,16 +31,14 @@ git@github.com:stephnna/enumerable https://github.com/stephnna/oop-school-librar
 
 For anyone that whats to learn ruby
 
-```
-## Authors
-
-👤 **Ezea Stephen Nnabuike**
+👤 Ezea Stephen Nnabuike
 - GitHub: [@stephnna](https://github.com/stephnna)
 - Twitter: [@stephnna](https://twitter.com/stephnna)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephen-ezea/)
 
 
 ## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 ## Show your support

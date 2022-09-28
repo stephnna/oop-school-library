@@ -1,4 +1,4 @@
-require_relative './person'
+require './person'
 
 class Student < Person
   attr_accessor :parent_permission

@@ -1,3 +1,5 @@
+require './person'
+
 class Person
   attr_accessor :id, :name, :age, :parent_permission
 
@@ -8,11 +10,17 @@ class Person
     @parent_permission = parent_permission
   end
 
-  private_class_method def of_age?
-    @age >= 18
-  end
-
   def can_use_services?
     @parent_permission || is_of_age?
+  end
+
+  def correct_name
+    @name
+  end
+
+  private
+
+  def of_age?
+    @age >= 18
   end
 end

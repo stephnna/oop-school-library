@@ -27,6 +27,7 @@ To get a working local copy up and running follow these simple steps
 git@github.com:stephnna/enumerable https://github.com/stephnna/oop-school-library.git
 ```
 
+
 ## Usage
 
 For anyone that whats to learn ruby
@@ -43,6 +44,7 @@ For anyone that whats to learn ruby
 
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
+
 ## Show your support
 Give a ⭐️ if you like this project!
 

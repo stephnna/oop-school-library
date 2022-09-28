@@ -1,12 +1,15 @@
 require_relative './person'
 
 class Student < Person
-  def initialize(classroom, age, name)
+  attr_accessor :parent_permission
+
+  def initialize(classroom, age, name, parent_permission)
     super(age, name)
-    @color = classroom
+    @classroom = classroom
+    @parent_permission = parent_permission
   end
 
-  def can_use_services?
-    true
+  def play_hooky
+    '¯\(ツ)/¯'
   end
 end

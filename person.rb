@@ -2,12 +2,14 @@ require './person'
 
 class Person
   attr_accessor :id, :name, :age, :parent_permission
+  attr_reader :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
     @id = Random.rand(1..100)
     @age = age
     @name = name
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   def can_use_services?
@@ -16,6 +18,11 @@ class Person
 
   def correct_name
     @name
+  end
+
+  def add_rental(rental)
+    @rentals.push(rental)
+    rental.person = self
   end
 
   private

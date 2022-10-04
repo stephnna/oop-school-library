@@ -14,9 +14,6 @@ def start
   when 6
     @app.list_rentals
   when 7
-    @app.store_people
-    @app.store_book
-    @app.store_rental
     puts 'Thank you for using this app!'
   else
     puts 'That is not a valid option.'

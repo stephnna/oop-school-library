@@ -7,7 +7,7 @@ class App
   def initialize
     @people = []
     @books = []
-    @rentals = []    
+    @rentals = []
   end
   include OtherFunctions
 

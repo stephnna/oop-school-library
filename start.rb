@@ -13,9 +13,7 @@ def start
     @app.start_rental
   when 6
     @app.list_rentals
-  when 7
-    puts 'Thank you for using this app!'
   else
-    puts 'That is not a valid option.'
+    puts 'Thank you for using this app!'
   end
 end

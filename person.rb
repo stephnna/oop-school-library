@@ -1,11 +1,10 @@
-require './person'
+require_relative './person'
 
 class Person
-  attr_accessor :id, :name, :age, :parent_permission
-  attr_reader :rentals
+  attr_accessor :id, :name, :age, :parent_permission, :rentals
 
   def initialize(age, name = 'Unknown', parent_permission: true)
-    @id = Random.rand(1..100)
+    @id = Random.rand(1..100).to_s
     @age = age
     @name = name
     @parent_permission = parent_permission

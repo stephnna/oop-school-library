@@ -64,10 +64,10 @@ class App
 
   def list_rentals
     id = take_input_label('Enter id of person')
-    @rentals.each do |rental|
-      put_lable('Rentals')
-      rental.person.id && id
-      put_lable("#{rental.date} - #{rental.book.title}")
+
+    rental_person = @people.find { |person| person.id == id }
+    rental_person.rentals.each_with_index do |rental, rental_idx|
+      puts("#{rental_idx}) #{rental.date}")
     end
   end
 
@@ -85,6 +85,10 @@ class App
     book_id = book_id.to_i
     book = @books[book_id]
     date = take_input_label('Date')
-    create_rental(date, person, book)
+    @rentals << create_rental(date, person, book)
+  end
+
+  def leave
+    puts 'Thanks for using this app!'
   end
 end

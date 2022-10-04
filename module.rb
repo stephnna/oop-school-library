@@ -38,7 +38,7 @@ module OtherFunctions
   end
 
   def create_rental(date, person, book)
-    @rentals << Rental.new(date, book, person)
     put_lable('Rental created successfully')
+    Rental.new(person, book, date)
   end
 end

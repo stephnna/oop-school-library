@@ -13,7 +13,10 @@ def start
     @app.start_rental
   when 6
     @app.list_rentals
+  when 7
+    @app.leave
+    @running = false
   else
-    puts 'Thank you for using this app!'
+    puts 'Sorry, Invalid input... try again!'
   end
 end

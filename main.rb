@@ -4,11 +4,11 @@ require_relative 'start'
 class Main
   def initialize
     @app = App.new
-    @reply = 0
+    @running = true
   end
 
   def run
-    while @reply != 6
+    while @running
       puts("
                 Please choose an option by entering a number:
                 1 - List all books

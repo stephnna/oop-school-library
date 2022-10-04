@@ -4,10 +4,9 @@ class Student < Person
   attr_accessor :parent_permission
   attr_reader :classroom
 
-  def initialize(classroom, age, name, parent_permission)
+  def initialize(age, name, parent_permission)
     super(age, name)
-    @classroom = classroom
-    @parent_permission = parent_permission
+        @parent_permission = parent_permission
   end
 
   def play_hooky

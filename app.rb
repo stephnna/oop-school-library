@@ -37,6 +37,7 @@ class App
 
   def teacher
     age = take_input_label('Age')
+    age = age.to_i
     name = take_input_label('Name')
     specialization = take_input_label('specialization')
     create_teacher(age, name, specialization)
